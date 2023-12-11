@@ -29,7 +29,7 @@
     </div>
     <div class="bg-primary">
         <div class="container">
-            <ul class="d-flex justify-content-between align-items-center text-light py-4">
+            <ul class="d-flex justify-content-between align-items-center text-light py-4 m-0 text-uppercase">
                 <li>
                     <img class="img-buy" src=" {{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt="">
                     <a href="#">digital comics</a>
