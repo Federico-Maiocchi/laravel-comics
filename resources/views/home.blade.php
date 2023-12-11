@@ -27,7 +27,7 @@
             </div>
          </div>
     </div>
-    <div class="bg-primary">
+    <div class="bg-primary position-relative z-1">
         <div class="container">
             <ul class="d-flex justify-content-between align-items-center text-light py-4 m-0 text-uppercase">
                 <li>
