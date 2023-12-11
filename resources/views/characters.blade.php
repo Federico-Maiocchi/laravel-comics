@@ -1,6 +1,5 @@
 @extends('layouts.app')
 
 @section('content') 
-    <button><a href="{{ route('home') }}">Back in home</a></button>
-    <h1>Welcome charachters zone</h1>
+    <h1>Welcome <span class="text-primary">characters</span> zone</h1>
 @endsection

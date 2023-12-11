@@ -12,7 +12,12 @@
             </div>
             <div class="col-8 ">
                 <ul class="d-flex gap-3">
-                    <li><a href="{{ route('characters') }}">charachters</a></li>
+                    <li class="{{Route::currentRouteName() === 'home' ? 'active' : '' }}">
+                        <a href="{{ route('home') }}">home</a>
+                    </li>
+                    <li class="{{Route::currentRouteName() === 'characters' ? 'active' : '' }}">
+                        <a href="{{ route('characters') }}">charachters</a>
+                    </li>
                     <li><a href="">comis</a></li>
                     <li><a href="">movies</a></li>
                     <li><a href="">tv</a></li>
@@ -31,5 +36,13 @@
                 </span>
             </div>
         </div>
+    </div>
+    <div class="container">
+        <p class="fs-3 text text-primary text-center">
+            {{ Route::currentRouteName() }}
+        </p>
+        {{-- <p>
+            {{ Request::route()->getName() }}
+        </p>     --}}
     </div>  
 </header>
