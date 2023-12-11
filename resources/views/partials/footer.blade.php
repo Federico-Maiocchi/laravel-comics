@@ -1,4 +1,4 @@
-<footer class="footer-page text-light text-secondary py-3">
+<footer class="footer-page text-light text-secondary pt-3">
     <div class="container position-relative z-1">
         <div class="d-flex">
             <div class="row">
@@ -57,5 +57,26 @@
             <img class="img-bg position-absolute bottom-0 end-0 z-0" src="{{ Vite::asset('resources/img/dc-logo-bg.png') }}" alt="">
         </div>
     </div>
+    <div class="footer-end bg-black py-3">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between">
+                <div >
+                    <button type="button" class="text-light btn btn-secondary btn-outline-primary">Secondary</button>
+                </div>
+                <div class="d-flex align-items-center">
+                    <h5 class="text-primary text-uppercase">follow</h5>
+                    <ul class="d-flex gap-2">
+                        <li><img src="{{ Vite::asset('resources/img/footer-facebook.png') }}" alt=""></li>
+                        <li><img src="{{ Vite::asset('resources/img/footer-periscope.png') }}" alt=""></li>
+                        <li><img src="{{ Vite::asset('resources/img/footer-pinterest.png') }}" alt=""></li>
+                        <li><img src="{{ Vite::asset('resources/img/footer-twitter.png') }}" alt=""></li>
+                        <li><img src="{{ Vite::asset('resources/img/footer-youtube.png') }}" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
     
 </footer>

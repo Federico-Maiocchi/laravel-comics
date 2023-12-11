@@ -1,5 +1,5 @@
 <header class="text-uppercase fw-bold">
-    <div class="container-fluid text-center">
+    <div class="text-center">
         <div class="up-header">
             <ul class="d-flex flex-row-reverse">
                 <li>dc powersmvisa</li>
@@ -7,10 +7,10 @@
             </ul>
         </div>
         <div class="row align-items-center justify-content-between">
-            <div class="col-3">
+            <div class="col-2">
                 <img src=" {{ Vite::asset('resources/img/dc-logo.png') }}" alt="logo">   
             </div>
-            <div class="col-6 ">
+            <div class="col-8 ">
                 <ul class="d-flex gap-3">
                     <li><a href="{{ route('characters') }}">charachters</a></li>
                     <li><a href="">comis</a></li>
@@ -24,7 +24,7 @@
                     <li><a href="">shop &downarrow;</a></li>
                 </ul>
             </div>
-            <div class="col-3">
+            <div class="col-2">
                 <span>
                     <input type="text" placeholder="Search">
                     <span>&star;</span>
