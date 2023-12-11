@@ -12,7 +12,7 @@
             </div>
             <div class="col-6 ">
                 <ul class="d-flex gap-3">
-                    <li class=""><a href="">charachters</a></li>
+                    <li><a href="{{ route('characters') }}">charachters</a></li>
                     <li><a href="">comis</a></li>
                     <li><a href="">movies</a></li>
                     <li><a href="">tv</a></li>

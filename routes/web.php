@@ -133,3 +133,7 @@ Route::get('/', function() {
     return view('home', compact('comics'), $comics);
  
  })->name('home');
+
+Route::get('/characters', function () {
+    return view('characters');
+})->name('characters');
