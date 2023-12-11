@@ -1,4 +1,4 @@
-<header>
+<header class="text-uppercase fw-bold">
     <div class="container-fluid text-center">
         <div class="up-header">
             <ul class="d-flex flex-row-reverse">
@@ -12,7 +12,7 @@
             </div>
             <div class="col-6 ">
                 <ul class="d-flex gap-3">
-                    <li><a href="">charachters</a></li>
+                    <li class=""><a href="">charachters</a></li>
                     <li><a href="">comis</a></li>
                     <li><a href="">movies</a></li>
                     <li><a href="">tv</a></li>
